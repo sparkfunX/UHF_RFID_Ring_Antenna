@@ -296,7 +296,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPECIAL_INSTRUCTIONS">
+<deviceset name="SPECIAL_INSTRUCTIONS" prefix="LOGO">
 <description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
 &lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
 &lt;p&gt;&lt;table border=1 cellpadding=1&gt;
@@ -376,9 +376,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="ANT">
 <circle x="0" y="0" radius="7.5" width="0.025" layer="51"/>
 <circle x="0" y="0" radius="10" width="0.025" layer="51"/>
-<wire x1="0" y1="-7" x2="0" y2="-11" width="1.6" layer="51"/>
-<smd name="P$1" x="-1.47" y="-8.92" dx="1.35" dy="2.9" layer="16" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="1.47" y="-8.92" dx="1.35" dy="2.9" layer="16" stop="no" thermals="no" cream="no"/>
+<smd name="P$1" x="-1.32" y="-8.895" dx="1.35" dy="2.9" layer="16" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="1.77" y="-8.895" dx="1.35" dy="2.9" layer="16" stop="no" thermals="no" cream="no"/>
 <polygon width="0.1" layer="1">
 <vertex x="-0.9" y="-7.5"/>
 <vertex x="-1.5" y="-7.4"/>
@@ -439,8 +438,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.61" y="-7.08"/>
 <vertex x="1.87" y="-7.31"/>
 <vertex x="1.29" y="-7.43"/>
-<vertex x="0.86" y="-7.48"/>
-<vertex x="0.86" y="-9.92"/>
+<vertex x="1.135" y="-7.455"/>
+<vertex x="1.135" y="-9.895"/>
 <vertex x="1.51" y="-9.85"/>
 <vertex x="2.19" y="-9.72"/>
 <vertex x="3.05" y="-9.48"/>
@@ -514,7 +513,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.9" y="-9.9"/>
 </polygon>
 <polygon width="0.1" layer="16">
-<vertex x="-0.9" y="-7.5"/>
+<vertex x="-0.7" y="-7.525"/>
 <vertex x="-1.5" y="-7.4"/>
 <vertex x="-2.3" y="-7.2"/>
 <vertex x="-3.3" y="-6.8"/>
@@ -573,8 +572,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.61" y="-7.08"/>
 <vertex x="1.87" y="-7.31"/>
 <vertex x="1.29" y="-7.43"/>
-<vertex x="0.86" y="-7.48"/>
-<vertex x="0.86" y="-9.92"/>
+<vertex x="1.16" y="-7.455"/>
+<vertex x="1.16" y="-9.895"/>
 <vertex x="1.51" y="-9.85"/>
 <vertex x="2.19" y="-9.72"/>
 <vertex x="3.05" y="-9.48"/>
@@ -645,10 +644,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-2.8" y="-9.56"/>
 <vertex x="-1.95" y="-9.77"/>
 <vertex x="-1.09" y="-9.9"/>
-<vertex x="-0.9" y="-9.9"/>
+<vertex x="-0.7" y="-9.925"/>
 </polygon>
-<smd name="P$3" x="-1.47" y="-8.92" dx="1.35" dy="2.9" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$4" x="1.47" y="-8.92" dx="1.35" dy="2.9" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$3" x="-1.32" y="-8.895" dx="1.35" dy="2.9" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$4" x="1.77" y="-8.895" dx="1.35" dy="2.9" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.1" layer="42">
 <vertex x="-2" y="-11"/>
 <vertex x="-12" y="-11"/>
@@ -669,6 +668,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2" y="-7"/>
 <vertex x="-2" y="-7"/>
 </polygon>
+</package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.85" y1="0.35" x2="-0.85" y2="0.35" width="0.05" layer="39"/>
+<wire x1="-0.85" y1="0.35" x2="-0.85" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="-0.85" y1="-0.35" x2="0.85" y2="-0.35" width="0.05" layer="39"/>
+<wire x1="0.85" y1="-0.35" x2="0.85" y2="0.35" width="0.05" layer="39"/>
+</package>
+<package name="0402_MURATA">
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<smd name="P$1" x="-0.4" y="0" dx="0.4" dy="0.6" layer="1"/>
+<smd name="P$2" x="0.4" y="0" dx="0.4" dy="0.6" layer="1"/>
+</package>
+<package name="0603_MURATA">
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<smd name="P$1" x="-0.7" y="0" dx="0.5" dy="1" layer="1"/>
+<smd name="P$2" x="0.675" y="0" dx="0.5" dy="1" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -739,6 +772,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M0402" package="0402_MURATA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M0603" package="0603_MURATA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$2"/>
+<connect gate="G$1" pin="2" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
@@ -764,6 +824,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="M0603" package="0603_MURATA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M0402" package="0402_MURATA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="INDUCTOR" prefix="L" uservalue="yes">
@@ -784,6 +862,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M0402" package="0402_MURATA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M0603" package="0603_MURATA">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -948,19 +1044,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="R1" library="special_parts" deviceset="RESISTOR" device="0402" value="4.28k"/>
-<part name="C1" library="special_parts" deviceset="CAPACITOR" device="0402" value="9.3 pF"/>
-<part name="C2" library="special_parts" deviceset="CAPACITOR" device="0402" value="9.3 pF"/>
-<part name="C3" library="special_parts" deviceset="CAPACITOR" device="0402" value="9.0 pF"/>
-<part name="C4" library="special_parts" deviceset="CAPACITOR" device="0402" value="9.0 pF"/>
-<part name="L1" library="special_parts" deviceset="INDUCTOR" device="0402" value="0.26 uH"/>
-<part name="L2" library="special_parts" deviceset="INDUCTOR" device="0603" value="0.26 uH"/>
-<part name="L3" library="special_parts" deviceset="INDUCTOR" device="0603" value="0.26 uH"/>
-<part name="L4" library="special_parts" deviceset="INDUCTOR" device="0603" value="0.24 uH"/>
-<part name="L5" library="special_parts" deviceset="INDUCTOR" device="0603" value="0.24 uH"/>
-<part name="C5" library="special_parts" deviceset="CAPACITOR" device="0402" value="5.66 pF"/>
-<part name="C6" library="special_parts" deviceset="CAPACITOR" device="0402" value="5.66 pF"/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
+<attribute name="DESIGNER" value="Owen Lyke"/>
+<attribute name="REV" value="x02"/>
+</part>
+<part name="R1" library="special_parts" deviceset="RESISTOR" device="M0402" value="4.28k"/>
+<part name="C1" library="special_parts" deviceset="CAPACITOR" device="M0402" value="9.3 pF"/>
+<part name="C2" library="special_parts" deviceset="CAPACITOR" device="M0402" value="9.3 pF"/>
+<part name="C3" library="special_parts" deviceset="CAPACITOR" device="M0402" value="9.0 pF"/>
+<part name="C4" library="special_parts" deviceset="CAPACITOR" device="M0402" value="9.0 pF"/>
+<part name="L1" library="special_parts" deviceset="INDUCTOR" device="M0402" value="0.26 uH"/>
+<part name="L2" library="special_parts" deviceset="INDUCTOR" device="M0603" value="0.26 uH"/>
+<part name="L3" library="special_parts" deviceset="INDUCTOR" device="M0603" value="0.26 uH"/>
+<part name="L4" library="special_parts" deviceset="INDUCTOR" device="M0603" value="0.24 uH"/>
+<part name="L5" library="special_parts" deviceset="INDUCTOR" device="M0603" value="0.24 uH"/>
+<part name="C5" library="special_parts" deviceset="CAPACITOR" device="M0402" value="5.66 pF"/>
+<part name="C6" library="special_parts" deviceset="CAPACITOR" device="M0402" value="5.66 pF"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
