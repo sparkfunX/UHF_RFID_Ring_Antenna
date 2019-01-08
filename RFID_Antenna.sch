@@ -692,16 +692,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
 <rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
 <rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
-<smd name="P$1" x="-0.4" y="0" dx="0.4" dy="0.6" layer="1"/>
-<smd name="P$2" x="0.4" y="0" dx="0.4" dy="0.6" layer="1"/>
+<smd name="P$1" x="-0.4" y="0" dx="0.4" dy="0.6" layer="1" stop="no"/>
+<smd name="P$2" x="0.4" y="0" dx="0.4" dy="0.6" layer="1" stop="no"/>
+<rectangle x1="-0.6" y1="-0.3" x2="-0.2" y2="0.3" layer="29"/>
+<rectangle x1="0.2" y1="-0.3" x2="0.6" y2="0.3" layer="29"/>
 </package>
 <package name="0603_MURATA">
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<smd name="P$1" x="-0.7" y="0" dx="0.5" dy="1" layer="1"/>
-<smd name="P$2" x="0.675" y="0" dx="0.5" dy="1" layer="1"/>
+<smd name="P$1" x="-0.7" y="0" dx="0.5" dy="1" layer="1" stop="no"/>
+<smd name="P$2" x="0.675" y="0" dx="0.5" dy="1" layer="1" stop="no"/>
+<rectangle x1="-0.95" y1="-0.5" x2="-0.45" y2="0.5" layer="29"/>
+<rectangle x1="0.425" y1="-0.5" x2="0.925" y2="0.5" layer="29"/>
 </package>
 </packages>
 <symbols>
