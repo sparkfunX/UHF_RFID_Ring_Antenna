@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -18,34 +18,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -2012,38 +2012,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="special_parts" package="0402_MURATA" value="5.0 pF" x="12.1462" y="18.1292"/>
-<element name="C2" library="special_parts" package="0402_MURATA" value="5.0 pF" x="13.7462" y="18.1242"/>
-<element name="C3" library="special_parts" package="0402_MURATA" value="5.0 pF" x="12.5192" y="16.9652" rot="R270"/>
-<element name="C4" library="special_parts" package="0402_MURATA" value="5.0 pF" x="13.3412" y="16.9752" rot="R270"/>
-<element name="C5" library="special_parts" package="0402_MURATA" value="2.4 pF" x="11.6212" y="14.3352" rot="R180"/>
-<element name="C6" library="special_parts" package="0402_MURATA" value="2.4 pF" x="14.3952" y="13.0242" rot="R180"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-15.24" y="-66.04">
+<element name="C1" library="special_parts" package="0402_MURATA" value="5.0 pF" x="12.1462" y="18.1292" smashed="yes"/>
+<element name="C2" library="special_parts" package="0402_MURATA" value="5.0 pF" x="13.7462" y="18.1242" smashed="yes"/>
+<element name="C3" library="special_parts" package="0402_MURATA" value="5.0 pF" x="12.5192" y="16.9652" smashed="yes" rot="R270"/>
+<element name="C4" library="special_parts" package="0402_MURATA" value="5.0 pF" x="13.3412" y="16.9752" smashed="yes" rot="R270"/>
+<element name="C5" library="special_parts" package="0402_MURATA" value="2.4 pF" x="11.6212" y="14.3352" smashed="yes" rot="R180"/>
+<element name="C6" library="special_parts" package="0402_MURATA" value="2.4 pF" x="14.3952" y="13.0242" smashed="yes" rot="R180"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-15.24" y="-66.04" smashed="yes">
 <attribute name="DESIGNER" value="Owen Lyke" x="-15.24" y="-66.04" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="x02" x="-15.24" y="-66.04" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="12.5492" y="9.4182" rot="R90">
+<element name="J1" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="12.5492" y="9.4182" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.0092" y="8.1482" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-09193" x="12.5492" y="9.4182" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="12.5492" y="9.4182" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="15.0892" y="8.1482" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
-<element name="L1" library="special_parts" package="0402_MURATA" value="19 nH" x="13.0092" y="15.3952"/>
-<element name="L2" library="special_parts" package="0603_MURATA" value="24 nH" x="11.45" y="16.07" rot="R90"/>
-<element name="L3" library="special_parts" package="0603_MURATA" value="24 nH" x="14.575" y="16.08" rot="R90"/>
-<element name="L4" library="special_parts" package="0603_MURATA" value="11 nH" x="14.0862" y="14.3282" rot="R180"/>
-<element name="L5" library="special_parts" package="0603_MURATA" value="11 nH" x="11.8592" y="13.0392" rot="R180"/>
-<element name="R1" library="special_parts" package="0402_MURATA" value="4.28k" x="12.9762" y="19.0422"/>
-<element name="U$1" library="special_parts" package="ANT" value="ANTENNA" x="12.7112" y="26.6632"/>
-<element name="U$2" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="-34.29" y="-5.08"/>
-<element name="U$3" library="SparkX" package="SPARKX-LARGE" value="" x="12.7" y="28.575"/>
-<element name="U$4" library="SparkX" package="SPARKX-LARGE" value="" x="12.7" y="28.575" rot="MR0"/>
-<element name="U$5" library="buzzard_labels" package="UHF_RFID_RING0" value="" x="6.8326" y="25.8572"/>
-<element name="U$6" library="buzzard_labels" package="UHF_RFID_RING0" value="" x="18.542" y="25.8572" rot="MR0"/>
-<element name="U$7" library="buzzard_labels" package="ANTENNA1" value="" x="8.8646" y="24.1046"/>
-<element name="U$8" library="buzzard_labels" package="ANTENNA1" value="" x="16.6624" y="24.1046" rot="MR0"/>
-<element name="U$9" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="12.7" y="21.082" rot="MR0"/>
-<element name="U$10" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="12.7" y="21.082"/>
-<element name="U$11" library="SparkX" package="QWIIC_BOARD_MOUNT_HOLES" value="" x="12.7" y="25.4" rot="MR0"/>
-<element name="U$12" library="SparkX" package="SPARKX-XLARGE" value="SPARKX-LOGO6" x="-21.59" y="-71.12"/>
+<element name="L1" library="special_parts" package="0402_MURATA" value="19 nH" x="13.0092" y="15.3952" smashed="yes"/>
+<element name="L2" library="special_parts" package="0603_MURATA" value="24 nH" x="11.45" y="16.07" smashed="yes" rot="R90"/>
+<element name="L3" library="special_parts" package="0603_MURATA" value="24 nH" x="14.575" y="16.08" smashed="yes" rot="R90"/>
+<element name="L4" library="special_parts" package="0603_MURATA" value="11 nH" x="14.0862" y="14.3282" smashed="yes" rot="R180"/>
+<element name="L5" library="special_parts" package="0603_MURATA" value="11 nH" x="11.8592" y="13.0392" smashed="yes" rot="R180"/>
+<element name="R1" library="special_parts" package="0402_MURATA" value="4.28k" x="12.9762" y="19.0422" smashed="yes"/>
+<element name="U$1" library="special_parts" package="ANT" value="ANTENNA" x="12.7112" y="26.6632" smashed="yes"/>
+<element name="U$2" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="-34.29" y="-5.08" smashed="yes"/>
+<element name="U$3" library="SparkX" package="SPARKX-LARGE" value="" x="12.7" y="28.575" smashed="yes"/>
+<element name="U$4" library="SparkX" package="SPARKX-LARGE" value="" x="12.7" y="28.575" smashed="yes" rot="MR0"/>
+<element name="U$5" library="buzzard_labels" package="UHF_RFID_RING0" value="" x="6.8326" y="25.8572" smashed="yes"/>
+<element name="U$6" library="buzzard_labels" package="UHF_RFID_RING0" value="" x="18.542" y="25.8572" smashed="yes" rot="MR0"/>
+<element name="U$7" library="buzzard_labels" package="ANTENNA1" value="" x="8.8646" y="24.1046" smashed="yes"/>
+<element name="U$8" library="buzzard_labels" package="ANTENNA1" value="" x="16.6624" y="24.1046" smashed="yes" rot="MR0"/>
+<element name="U$9" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="12.7" y="21.082" smashed="yes" rot="MR0"/>
+<element name="U$10" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="12.7" y="21.082" smashed="yes"/>
+<element name="U$11" library="SparkX" package="QWIIC_BOARD_MOUNT_HOLES" value="" x="12.7" y="25.4" smashed="yes" rot="MR0"/>
+<element name="U$12" library="SparkX" package="SPARKX-XLARGE" value="SPARKX-LOGO6" x="-21.59" y="-71.12" smashed="yes"/>
 </elements>
 <signals>
 <signal name="A1">
@@ -2200,7 +2202,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <via x="13.97" y="1.27" extent="1-16" drill="1.016"/>
 <via x="11.43" y="1.27" extent="1-16" drill="1.016"/>
-<wire x1="13.97" y1="1.27" x2="11.43" y2="1.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <via x="3.9" y="26.493" extent="1-16" drill="0.381"/>
