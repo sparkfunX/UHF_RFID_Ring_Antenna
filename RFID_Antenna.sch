@@ -2402,7 +2402,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="CAP-14351"/>
+<attribute name="PROD_ID" value="14351"/>
 <attribute name="VALUE" value="2.4 pF"/>
 </technology>
 </technologies>
@@ -2628,7 +2628,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$1" library="special_parts" deviceset="ANTENNA" device=""/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
-<part name="U$12" library="SparkX" deviceset="SPARKX-LOGO" device="6"/>
+<part name="U$12" library="SparkX" deviceset="SPARKX-LOGO" device="5" value="SPARKX-LOGO5"/>
 </parts>
 <sheets>
 <sheet>
@@ -2705,7 +2705,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="U$1" gate="G$1" x="114.3" y="137.16" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="223.52" y="38.1" smashed="yes"/>
-<instance part="U$12" gate="G$1" x="116.84" y="63.5" smashed="yes"/>
+<instance part="U$12" gate="G$1" x="233.68" y="30.48" smashed="yes"/>
 </instances>
 <busses>
 </busses>
