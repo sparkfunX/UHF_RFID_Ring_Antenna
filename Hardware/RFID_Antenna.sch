@@ -745,11 +745,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="NC" x="-1.525" y="0" dx="1.05" dy="1" layer="1" cream="no"/>
 <text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<polygon width="0.000128125" layer="21">
+<vertex x="0.889" y="-0.508"/>
+<vertex x="0.889" y="0.508"/>
+<vertex x="0.254" y="0.508"/>
+<vertex x="0.254" y="-0.508"/>
+</polygon>
 <circle x="0" y="0" radius="0.1778" width="0" layer="21"/>
 <wire x1="-1.524" y1="1.016" x2="-1.524" y2="1.778" width="0.1524" layer="21"/>
 <wire x1="-1.524" y1="1.778" x2="-1.016" y2="2.286" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="2.286" x2="-0.254" y2="2.286" width="0.1524" layer="21"/>
-<rectangle x1="0.254" y1="-0.5715" x2="0.762" y2="0.5715" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2356,6 +2361,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$2" x="0.4" y="0" dx="0.4" dy="0.6" layer="1" stop="no"/>
 <rectangle x1="-0.6" y1="-0.3" x2="-0.2" y2="0.3" layer="29"/>
 <rectangle x1="0.2" y1="-0.3" x2="0.6" y2="0.3" layer="29"/>
+<text x="-0.635" y="0.381" size="0.254" layer="25">&gt;tNames</text>
 </package>
 </packages>
 <symbols>
@@ -2402,7 +2408,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="14351"/>
+<attribute name="PROD_ID" value="CAP-14351"/>
 <attribute name="VALUE" value="2.4 pF"/>
 </technology>
 </technologies>
@@ -2555,6 +2561,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$2" x="0.4" y="0" dx="0.4" dy="0.6" layer="1" stop="no"/>
 <rectangle x1="-0.6" y1="-0.3" x2="-0.2" y2="0.3" layer="29"/>
 <rectangle x1="0.2" y1="-0.3" x2="0.6" y2="0.3" layer="29"/>
+<text x="0" y="0.762" size="0.6096" layer="25" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" ratio="20" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2575,7 +2583,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="4.3KOHM">
+<deviceset name="4.3KOHM" prefix="R">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
