@@ -3,7 +3,7 @@ UHF RFID Ring Antenna
 
 ![UHF RFID Ring Antenna](https://cdn.sparkfun.com/assets/parts/1/3/4/8/1/15113-UHF_RFID_Ring_Antenna-02.jpg)
 
-[*UHF RFID Ring Antenna* (SPX-15113)] (https://www.sparkfun.com/products/15113)
+[*UHF RFID Ring Antenna (SPX-15113)*] (https://www.sparkfun.com/products/15113)
 
 A small ring antenna for use with Ultra-small UHF RFID tags
 
